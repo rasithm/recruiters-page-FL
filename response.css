@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+  body {
+    font-family: sans-serif;
+    
+  }
+/* Mobile View */
+@media (max-width: 768px) {
+    .r-left {
+        width: 0; /* Start with a collapsed menu */
+        transition: width 0.3s ease;
+    }
+    .r-right {
+        width: 100%; /* Take full width */
+    }
+
+    /* Hide the normal menu items and only show the hamburger-style menu */
+    .box-1 a {
+        display: none;
+    }
+    .box-1-hide a {
+        display: flex;
+    }
+
+    /* Navbar adjustments */
+    .menu {
+        min-width: 100%;
+        padding-right: 10px;
+    }
+
+    .logo-div {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .last-div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Adjust logo size and visibility on mobile */
+    .logo a {
+        font-size: 16px;
+    }
+}
+
+/* Tablet View (between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .r-left {
+        width: 200px; /* Adjust left menu width for tablet view */
+    }
+
+    .r-right {
+        width: calc(100% - 200px); /* Adjust the right content area width */
+    }
+
+    /* Box-1 items visible in tablet mode */
+    .box-1 a {
+        display: flex;
+    }
+    .box-1-hide a {
+        display: none;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 1024px) {
+    .r-left {
+        width: 400px; /* Default large menu width */
+    }
+    .r-right {
+        width: calc(100% - 400px); /* Adjust the right content area width */
+    }
+
+    /* Box-1 items visible in desktop mode */
+    .box-1 a {
+        display: flex;
+    }
+    .box-1-hide a {
+        display: none;
+    }
+}
