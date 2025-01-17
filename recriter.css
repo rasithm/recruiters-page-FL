@@ -12,9 +12,10 @@ body{
 }
 .parent{
     display: flex;
+    min-height: 1000px;
     height: auto;
     
-    background-color: red;
+    background-color: rgb(167, 35, 35);
 }
 .r-left{
     width: 100px;
@@ -23,17 +24,21 @@ body{
     background-color: #141B5F;
     min-height:700px ;
     height: auto;
+    position: fixed;
+    z-index: 2;
 }
 .r-right{
     background-color: blanchedalmond;
     min-height: 700px;
     height: auto;
     transition: width 0.3s ease;
-    width: calc(100% - 100px);
+    width: 100%;
+    position: absolute;
+    left: 100px;
 }
 .r-right-down{
     background-color: #f4f5ff;
-    min-height: 700px;
+    min-height: 1000px;
     height: auto;
     
 }
@@ -45,6 +50,7 @@ body{
     background-color: #141B5F ;
     /* background-color: black; */
     display: flex;
+    
     align-items: center;
     padding-left: 20px;
 }
@@ -94,6 +100,9 @@ body{
     /* background-color: #6d3535; */
     padding-top: 30px;
     padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
 }
