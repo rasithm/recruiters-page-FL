@@ -18,7 +18,7 @@ body{
     background-color: rgb(167, 35, 35);
 }
 .r-left{
-    width: 100px;
+    width: 80px;
     transition: width 0.3s ease;
     /* background-color: blue; */
     background-color: #141B5F;
@@ -34,7 +34,8 @@ body{
     transition: width 0.3s ease;
     width: 100%;
     position: absolute;
-    left: 100px;
+    left: 80px;
+    overflow-x: hidden;
 }
 .r-right-down{
     background-color: #f4f5ff;
@@ -52,7 +53,7 @@ body{
     display: flex;
     
     align-items: center;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .nav-div a{
     color: #FFFFFF;
@@ -90,7 +91,7 @@ body{
     min-height: 700px;
     height: auto;
     width: auto;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .l-box-div{
@@ -98,7 +99,7 @@ body{
     height:auto;
     width: auto;
     /* background-color: #6d3535; */
-    padding-top: 30px;
+    padding-top: 10px;
     padding-right: 10px;
     display: flex;
     flex-direction: column;
@@ -119,6 +120,13 @@ body{
     border-radius: 5px;
     padding-left: 5px;
     margin-bottom: 10px;
+}
+.box1 a:hover{
+    background-color: #fff;
+    color: black;
+}
+.box-1 a:hover{
+    border: 1px solid rgb(255, 255, 255); 
 }
 .fa-caret-right {
     font-size: 22px;
