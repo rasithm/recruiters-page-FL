@@ -8,7 +8,7 @@
 }
 body{
       font-family: sans-serif;
-      
+      overflow-x: hidden;
 }
 .parent{
     display: flex;

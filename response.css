@@ -25,10 +25,13 @@
   }
   @media (min-width:1367px){
     .menu{
-        width: 100%;
+        width: 1287px;
     }
   }
   @media (max-width: 320px) {
+    .parent{
+        width: 320px;
+    }
     .r-right{
         left:60px;
         width: 260px;
@@ -38,6 +41,9 @@
         /* background-color: #999999; */
         width: 260px;
         
+    }
+    .navbar{
+        width: 260px;
     }
     .r-left{
         
