@@ -217,15 +217,15 @@
 
 
 
-  @media (min-width: 1024px) and (max-width:1440px){
+  @media (min-width: 1367px) and (max-width:1440px){
     .r-right{
         left:60px;
-        width: 708px;
+        width: 1440px;
         z-index: 1;   
     }
     .r-right-down{
         /* background-color: #999999; */
-        width: 708px;
+        width: 1440px;
         
     }
     .r-left{
