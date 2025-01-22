@@ -16,29 +16,30 @@ function updateMenuLayout() {
     if(window.innerWidth <= 320) {
         // Set the styles for smaller screens (320px or less)
         rRight.style.transition = "left 0.3s ease";
-        rLeft.style.width = '320px';
+        // rLeft.style.width = '320px';
+        rLeft.style.width = '100%';
         rLeft.style.zIndex = '3'; 
         Menu.style.zIndex = '1';  
         // Menu.style.width = '220px';
         // rRight.style.left = '100px';
     }else if(window.innerWidth >= 321 && window.innerWidth <= 375){
         rRight.style.transition = "left 0.3s ease";
-        if(window.innerWidth <= 374){
+        
+            // rLeft.style.width = '375px';
             rLeft.style.width = '100%';
-        }else{
-            rLeft.style.width = '375px';
-        }
         
         rLeft.style.zIndex = '3'; 
         Menu.style.zIndex = '1'; 
     }else if(window.innerWidth >= 375 && window.innerWidth <= 425){
         rRight.style.transition = "left 0.3s ease";
-        rLeft.style.width = '425px';
+        // rLeft.style.width = '425px';
+        rLeft.style.width = '100%';
         rLeft.style.zIndex = '3'; 
         Menu.style.zIndex = '1'; 
     }else if(window.innerWidth >= 425 && window.innerWidth <= 768){
         rRight.style.transition = "left 0.3s ease";
-        rLeft.style.width = '768px';
+        // rLeft.style.width = '768px';
+        rLeft.style.width = '100%';
         rLeft.style.zIndex = '3'; 
         Menu.style.zIndex = '1'; 
     }else if(window.innerWidth >= 1367){
