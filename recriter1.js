@@ -44,9 +44,9 @@ function updateMenuLayout() {
         Menu.style.zIndex = '1'; 
     }else if(window.innerWidth >= 1367){
         rRight.style.transition = "left 0.3s ease";
-        rLeft.style.width = '100%';
-        rLeft.style.zIndex = '3'; 
-        Menu.style.zIndex = '1';
+        rLeft.style.width = '200px';  
+        Menu.style.width = 'calc(200px - 100%)';
+        rRight.style.left = '200px';
     }  
     else {
         // Set the styles for larger screens
