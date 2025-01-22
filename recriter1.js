@@ -75,7 +75,7 @@ function updateMenuLayoutClose() {
         rRight.style.left = '60px';
     }else if(window.innerWidth >= 1367){
         rLeft.style.width = '80px';  
-        Menu.style.width = '100%';
+        Menu.style.width = 'calc(80px - 100%)';
         rRight.style.left = '80px';
     }
      else {
