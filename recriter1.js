@@ -5,10 +5,11 @@ let BoxHide = document.querySelectorAll('.box-1-hide a');
 let rLeft = document.querySelector('.r-left');
 let rRight = document.querySelector('.r-right');
 let Menu = document.querySelector('.menu');
+let navBar = document.querySelector('.navbar');
 let mobileMenuOpen = document.getElementById('mobile-menu-open');
 let mobileMenuClose = document.getElementById('mobile-menu-close');
 let mobileMenuBox = document.getElementById('mobile-menu-box');
-
+let rRightDown = document.querySelector('.r-right-down');
 // Ensure rRight has position set to relative or absolute
 
 
@@ -45,9 +46,9 @@ function updateMenuLayout() {
     }else if(window.innerWidth >= 1367){
         rRight.style.transition = "left 0.3s ease";
         rLeft.style.width = '200px';  
-        Menu.style.width = '1200px';
+        rRight.style.width = 'calc(100% - 200px)'
         rRight.style.left = '200px';
-        rRight.style.width = '1200px';
+        navBar.style.width = 'calc(100% - 200px)' 
     }  
     else {
         // Set the styles for larger screens
@@ -76,8 +77,9 @@ function updateMenuLayoutClose() {
         rRight.style.left = '60px';
     }else if(window.innerWidth >= 1367){
         rLeft.style.width = '80px';  
-        Menu.style.width = '1360px';
+        rRight.style.width = 'calc(100% - 80px)'
         rRight.style.left = '80px';
+        navBar.style.width = 'calc(100% - 80px)'
     }
      else {
         rLeft.style.width = '80px';  

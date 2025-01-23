@@ -14,8 +14,8 @@ body{
     display: flex;
     min-height: 1000px;
     height: auto;
-    
-    background-color: rgb(167, 35, 35);
+    background-color: #f4f5ff;
+    /* background-color: rgb(167, 35, 35); */
 }
 .r-left{
     width: 80px;
