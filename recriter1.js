@@ -44,10 +44,11 @@ function updateMenuLayout() {
         rLeft.style.zIndex = '3'; 
         Menu.style.zIndex = '1'; 
     }else if(window.innerWidth >= 1367){
-        rRight.style.transition = "left 0.3s ease";
+        // rRight.style.transition = "left 0.3s ease";
         rLeft.style.width = '200px';  
         rRight.style.width = 'calc(100% - 200px)'
         rRight.style.left = '200px';
+        // navBar.style.transition = "left 0.3s ease";
         navBar.style.width = 'calc(100% - 200px)' 
     }  
     else {

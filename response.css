@@ -29,7 +29,7 @@
 
 
 
-  @media (min-width:1367px) and (max-width: 1440px){
+  @media (min-width:1367px){
     body{
         overflow-x: hidden;
     }
@@ -39,9 +39,9 @@
         width: calc(100% - 80px);
         z-index: 1;   
     }
-    .header{
+    /* .header{
         display: flex;
-    }
+    } */
     .navbar{
         display: flex;
         min-width: 1200px;
@@ -51,14 +51,14 @@
         display: flex;
         width: 100%;
     }
-    .r-right-down{
+    /* .r-right-down{ */
         /* background-color: #999999; */
         /* min-width: 1287px; */
         
-        width: auto;
+        /* width: auto;
         min-height: 100vh;
         height: auto;
-    }
+    } */
     .r-left{
         min-height: 1300px;
         height: auto;
