@@ -13,7 +13,7 @@
     } */
     .navbar{
         display: flex;
-        min-width: 769px;
+        /* min-width: 769px; */
         width: calc(100% - 80px);
     }
     nav{
@@ -104,6 +104,7 @@
         /* background-color: bisque; */
         min-height: 700px;
         height: auto;
+
         width: auto;
         align-items: center;
         justify-content: center;

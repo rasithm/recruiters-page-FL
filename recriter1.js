@@ -43,13 +43,22 @@ function updateMenuLayout() {
         rLeft.style.width = '100%';
         rLeft.style.zIndex = '3'; 
         Menu.style.zIndex = '1'; 
-    }else if(window.innerWidth >= 1367){
-        // rRight.style.transition = "left 0.3s ease";
+    }else if(window.innerWidth >= 769 && window.innerWidth <= 1340){
         rLeft.style.width = '200px';  
         rRight.style.width = 'calc(100% - 200px)'
         rRight.style.left = '200px';
         // navBar.style.transition = "left 0.3s ease";
         navBar.style.width = 'calc(100% - 200px)' 
+        // rRight.style.transition = "left 0.3s ease";
+    }
+    else if(window.innerWidth >= 1367){
+        
+        rLeft.style.width = '200px';  
+        rRight.style.width = 'calc(100% - 200px)'
+        rRight.style.left = '200px';
+        // navBar.style.transition = "left 0.3s ease";
+        navBar.style.width = 'calc(100% - 200px)' 
+        // rRight.style.transition = "left 0.3s ease";
     }  
     else {
         // Set the styles for larger screens
@@ -77,6 +86,11 @@ function updateMenuLayoutClose() {
         // Menu.style.width = '260px';
         rRight.style.left = '60px';
     }else if(window.innerWidth >= 1367){
+        rLeft.style.width = '80px';  
+        rRight.style.width = 'calc(100% - 80px)'
+        rRight.style.left = '80px';
+        navBar.style.width = 'calc(100% - 80px)'
+    }else if(window.innerWidth >= 769 && window.innerWidth <= 1340){
         rLeft.style.width = '80px';  
         rRight.style.width = 'calc(100% - 80px)'
         rRight.style.left = '80px';
