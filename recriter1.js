@@ -37,7 +37,7 @@ function updateMenuLayout() {
         rLeft.style.width = '100%';
         rLeft.style.zIndex = '3'; 
         Menu.style.zIndex = '1'; 
-    }else if(window.innerWidth >= 425 && window.innerWidth <= 768){
+    }else if(window.innerWidth >= 425 && window.innerWidth <= 775){
         rRight.style.transition = "left 0.3s ease";
         // rLeft.style.width = '768px';
         rLeft.style.width = '100%';
@@ -81,7 +81,7 @@ function updateMenuLayoutClose() {
         rLeft.style.width = '60px';
         // Menu.style.width = '260px';
         rRight.style.left = '60px';
-    }else if(window.innerWidth >= 425 && window.innerWidth <= 768){
+    }else if(window.innerWidth >= 425 && window.innerWidth <= 775){
         rLeft.style.width = '60px';
         // Menu.style.width = '260px';
         rRight.style.left = '60px';

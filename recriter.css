@@ -18,7 +18,8 @@ body{
     /* background-color: rgb(167, 35, 35); */
 }
 .r-left{
-    width: 80px;
+    width: 200px;
+    /* changes----------------------------------------- */
     transition: width 0.3s ease;
     /* background-color: blue; */
     background-color: #141B5F;
@@ -34,7 +35,8 @@ body{
     transition: width 0.3s ease;
     width: 100%;
     position: absolute;
-    left: 80px;
+    left: 200px;
+    /* changes-------------------------------- */
     overflow-x: hidden;
 }
 .r-right-down{
@@ -58,7 +60,8 @@ body{
 .nav-div a{
     color: #FFFFFF;
     font-size: 18px;
-    display: none;
+    display: flex;
+    /* changes----------------------------------------------- */
 }
 .nav-div a:hover{
     color: #ec0c0c;
@@ -112,7 +115,8 @@ body{
     width: auto;
     /* background-color: rgb(209, 120, 10); */
     /* display: flex; */
-    display: none;
+    display: flex;
+    /* changes----------------------------------------- */
     justify-content: space-between;
     align-items: center;
     padding-right: 10px;
@@ -154,14 +158,16 @@ body{
 .nav-div-hide a{
     color: #FFFFFF;
     font-size: 20px;
-    display: flex;
+    display: none; 
+    /* changes----------------------------------------------------------------------------------- */
     
 }
 .box-1-hide a{
     height: 50px;
     width: 50px;
     /* background-color: rgb(209, 120, 10); */
-    display: flex;
+    display: none;
+    /* changes-------------------------------------------------- */
     justify-content: center;
     align-items: center;
     padding-right: 10px;

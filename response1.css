@@ -207,5 +207,14 @@
 
     }
     
+
+
+    .nav-div a{
+        display: none;
+    }
+    .nav-div-hide a{
+        display: flex;
+    }
+
   }
   
