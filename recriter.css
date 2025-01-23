@@ -29,8 +29,8 @@ body{
     z-index: 2;
 }
 .r-right{
-    background-color: blanchedalmond;
-    min-height: 700px;
+    /* background-color: blanchedalmond; */
+    min-height: 1300px;
     height: auto;
     transition: width 0.3s ease;
     width: 100%;
@@ -38,12 +38,13 @@ body{
     left: 200px;
     /* changes-------------------------------- */
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .r-right-down{
     background-color: #f4f5ff;
-    min-height: 1000px;
+    /* min-height: 1200px; */
     height: auto;
-    
+    overflow-y: hidden;
 }
 
 /*left side*/
