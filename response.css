@@ -182,21 +182,21 @@
   
   @media (max-width: 320px) {
     .parent{
-        width: 320px;
+        width: 100%;
     }
     .r-right{
         left:60px;
-        width: 260px;
+        width: calc(100% - 60px);
         z-index: 1;   
     }
-    .r-right-down{
+    /* .r-right-down{ */
         /* background-color: #999999; */
-        width: 260px;
+        /* width: calc(100% - 60px); */
         
-    }
-    .navbar{
-        width: 260px;
-    }
+    /* } */
+    /* .navbar{
+        width: calc(100% - 60px);
+    } */
     .r-left{
         
         width: 60px;
@@ -281,7 +281,7 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        width: 260px;
+        width: calc(100% - 60px);
         background-color: rgb(61, 126, 184);
         min-height: 50px;
         /* white-space: wrap; */

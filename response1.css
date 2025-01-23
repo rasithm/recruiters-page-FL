@@ -1,14 +1,14 @@
 @media (min-width: 321px) and (max-width:375px){
     .r-right{
         left:60px;
-        width: 315px;
+        width: calc(100% - 60px);
         z-index: 1;   
     }
-    .r-right-down{
+    /* .r-right-down{
         /* background-color: #999999; */
-        width: 315px;
+        /* width: 315px;
         
-    }
+    } */ 
     .r-left{
         
         width: 60px;
@@ -93,7 +93,7 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        width: 315px;
+        width: calc(100% - 60px);
         background-color: rgb(61, 126, 184);
         min-height: 50px;
         /* white-space: wrap; */
