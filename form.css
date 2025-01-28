@@ -12,13 +12,13 @@ body {
 .r-right-down-main{
     position: absolute;
     top: 50px;
-    min-height: 800px;
+    min-height: 300px;
     height: auto;
     width: 100%;
     left: 1px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding-top: 10px;
     background-color: aqua;
 }
